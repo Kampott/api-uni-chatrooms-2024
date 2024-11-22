@@ -16,11 +16,11 @@
 - PostgreSQL
 
 ## Структура репозитория
-.\backend-chat\\
-.\frontend-chat\\
-.\backend-site\\
-.\frontend-site\\
-.\docs
+?? backend-chat
+?? frontend-chat
+?? backend-site
+?? frontend-site
+?? docs
 
 ## Установка и запуск
 См. инструкции в соответствующих модулях:
