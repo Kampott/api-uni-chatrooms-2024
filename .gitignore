@@ -1,1 +1,7 @@
 backend/venv/*
+frontend/*.txt
+frontend/node_modules/*
+backend/app/__pycache__/*
+backend/app/models/*.json
+frontend/package.json
+frontend/package-lock.json
