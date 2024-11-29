@@ -3,19 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Чат</title>
+    <title>Чат по аудиториям</title>
     <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
-    <div class="chat-container">
-        <h2>Чат</h2>
-        <div id="chatMessages" class="chat-messages"></div>
-        <div class="chat-input">
-            <input id="usernameInput" type="text" placeholder="Ваше имя">
-            <input id="messageInput" type="text" placeholder="Введите сообщение">
-            <button id="sendButton">Отправить</button>
+    <div class="container">
+        <h1>Выберите аудиторию</h1>
+        
+        <div class="nickname-form">
+            <input type="text" id="usernameInput" placeholder="Введите никнейм">
+            <button id="nicknameButton">Подтвердить</button>
+        </div>
+        
+        <div class="auditorium-buttons">
+            <button class="auditorium-button" data-room="A101">Аудитория A101</button>
+            <button class="auditorium-button" data-room="B202">Аудитория B202</button>
+            <button class="auditorium-button" data-room="C303">Аудитория C303</button>
+        </div>
+        
+        <!-- Скрываем чат и ввод по умолчанию -->
+        <div id="chatContainer" style="display: none;">
         </div>
     </div>
+
     <script src="/static/app.js"></script>
 </body>
 </html>

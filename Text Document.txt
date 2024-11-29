@@ -1,0 +1,15 @@
+/backend/app/__init__.py
+/backend/app/main.py
+/backend/venv/
+/backend/requirements.txt
+/backend/start_backend.bat
+/backend/app/routers/chat.py
+/backend/app/routers/schedule.py
+/backend/app/models/chat_log.json
+/backend/app/__pycache__
+/frotnend/node_modules/
+/frotnend/templates/index.html
+/frontend/static/app.json
+/frotnend/static/styles.css
+.gitgignore
+README.md
