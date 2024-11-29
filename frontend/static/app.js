@@ -21,7 +21,6 @@ nicknameButton.addEventListener("click", () => {
     chatContainer.style.display = "block";
 });
 
-// Создаёт окно чата с возможностью добавления эмодзи
 function createChatWindow(room) {
     const chatWindow = document.createElement("div");
     chatWindow.className = "chat-window";
