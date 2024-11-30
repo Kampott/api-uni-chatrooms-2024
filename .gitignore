@@ -5,3 +5,5 @@ backend/app/__pycache__/*
 backend/app/models/*.json
 frontend/package.json
 frontend/package-lock.json
+backend/app/models/__pycache__/*
+backend/app/routers/__pycache__/*

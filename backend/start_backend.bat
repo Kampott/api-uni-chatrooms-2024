@@ -1,5 +1,7 @@
 @echo off
 cd /d %~dp0
+echo Текущая директория: %cd%
 call venv\Scripts\activate
-uvicorn app.main:app --reload
+echo Виртуальное окружение активировано
+python -m uvicorn app.main:app --reload
 pause
